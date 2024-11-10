@@ -13,8 +13,7 @@
 ### State Management:
 1. useReducer is used for managing form state (email, password, loading, error) to centralize and optimize state updates.
 
-##### Error and Loading States:
-
+### Error and Loading States:
 1. Displays error messages and loading indicators based on the login process (e.g., invalid credentials or network errors).
 
 ## Installation
