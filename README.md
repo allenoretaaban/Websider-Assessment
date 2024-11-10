@@ -1,4 +1,4 @@
-# Implementation Guide
+# Application Specifications
 
 ## Debouncing and Throttling:
 1. Debouncing is used on the email and password inputs to reduce frequent state updates and API calls (500ms delay).
@@ -16,3 +16,14 @@
 ## Error and Loading States:
 
 1. Displays error messages and loading indicators based on the login process (e.g., invalid credentials or network errors).
+
+# Installation
+
+## Step 1: Install Dependencies
+npm install
+
+## Step 2: To start the Metro bundler
+npx react-native start
+
+## Step 3: To run the app on an Android emulator or a physical device: (since it is tested in Android)
+npx react-native run-android or npm run android
